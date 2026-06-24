@@ -74,7 +74,7 @@ C:\Users\User\Desktop\riscv
 ## 10. 外部來源與授權說明
 
 * **PicoRV32 核心**: 本專案採用的開源 RISC-V 處理器核心來自 YosysHQ 團隊之 [PicoRV32 專案](https://github.com/YosysHQ/picorv32) (v1.0 版本)，該部分原始碼遵循 **ISC License** 授權。專案內保留其原始處理器架構，僅透過外部系統匯流排與自研硬體進行整合。
-* **xPack GNU RISC-V Embedded GCC**: 專案韌體開發採用由 xPack 社群維護的交叉編譯工具鏈 (v15.2.0-1 版本)，其組件基於 **GNU GPL** 等開源授權協議。
+* **xPack GNU RISC-V Embedded GCC**: 專案韌體開發採用由 xPack 社群維護的[riscv-none-elf-gcc-xpack](https://github.com/xpack-dev-tools/riscv-none-elf-gcc-xpack) (v15.2.0-1 版本)，其組件基於 **GNU GPL** 等開源授權協議。
 * **技術文件與參考來源**:
 * [1] Kai-Chieh Hsu, *Verilog Programming Basic*, Course Slides, CS10014, National Yang Ming Chiao Tung University. URL: [people.cs.nycu.edu.tw/~ttyeh/course/2026_Spring/CS10014/slide/verilog.pdf](https://people.cs.nycu.edu.tw/~ttyeh/course/2026_Spring/CS10014/slide/verilog.pdf)
 * [2] Digilent, *Basys 3 Reference Manual*, 官方硬體規格說明文件. URL: [digilent.com/reference/programmable-logic/basys-3/reference-manual](https://digilent.com/reference/programmable-logic/basys-3/reference-manual)
